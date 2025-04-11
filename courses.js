@@ -37,5 +37,6 @@ const courses = [
     { code: "BECE407E", title: "ASIC Design" },
     { code: "BECE409E", title: "Sensors Technology" },
     { code: "CFOC191M", title: "Forest and their Management" },
-    { code: "CFOC575M", title: "Wildlife Ecology" }
+    { code: "CFOC575M", title: "Wildlife Ecology" },
+    { code: "BCHY101L", title: "Engineering Chemistry" }
 ];
