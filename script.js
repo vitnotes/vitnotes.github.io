@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let tableBody = document.getElementById("tableBody");
     let departmentMap = {
         "ECE": "ECE",
+        "CHY": "CHY",
         "CSE": "CSE",
         "FOC": "NPTEL"
     };
