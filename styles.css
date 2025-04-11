@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Search Bar */
+#searchInput {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width of the screen */
+    border-collapse: collapse;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Header Row */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Subheading for Departments */
+.subheading {
+    background-color: #d9d9d9;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* */
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: #d9d9d9;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #d9d9d9;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #d9d9d9;
+    color: white;
+  }

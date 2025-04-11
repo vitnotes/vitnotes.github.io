@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITNotes</title>
+    <script src="courses.js"></script> <!-- Load Courses First -->
+    <script defer src="script.js"></script> <!-- Load Table Logic After -->
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+    <link rel="icon" type="image/jpg" href="Assets/VITNotes.jpg"> <!-- Favicon -->
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="topnav">
+    <a href="index.html" class="active"><b>Home</b></a>
+
+    <div id="myLinks">
+        <a href="#news"><b>Upload Notes</b></a>
+        <a href="#contact"><b>Faculty Review</b></a>
+        <a href="#about"><b>Other Links</b></a>
+    </div>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    </div>
+    <input type="text" id="searchInput" onkeyup="searchTable()" placeholder="Search">
+    <table id="courseTable">
+        <thead>
+            <tr>
+                <th>Course Code</th>
+                <th>Course Title</th>
+                <th>Links</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+</body>
+</html>
