@@ -38,5 +38,8 @@ const courses = [
     { code: "BECE409E", title: "Sensors Technology" },
     { code: "CFOC191M", title: "Forest and their Management" },
     { code: "CFOC575M", title: "Wildlife Ecology" },
-    { code: "BCHY101L", title: "Engineering Chemistry" }
+    { code: "BCHY101L", title: "Engineering Chemistry" },
+    { code: "BCHY102N", title: "Environmental Science" },
+    { code: "BENG101L", title: "Technical English Communication" },
+    { code: "BENG102P", title: "Technical Report Writing" }
 ];
