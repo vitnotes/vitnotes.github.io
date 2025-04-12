@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function() {
         "ECE": "ECE",
         "CHY": "CHY",
         "CSE": "CSE",
-        "FOC": "NPTEL"
+        "FOC": "NPTEL",
+        "ENG": "ENG"
     };
     let lastDepartment = "";
 
