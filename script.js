@@ -2,11 +2,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     let tableBody = document.getElementById("tableBody");
     let departmentMap = {
-        "ECE": "ECE",
-        "CHY": "CHY",
-        "CSE": "CSE",
         "FOC": "NPTEL",
-        "ENG": "ENG"
+        "ESP": "Foreign Languages (FLE)",
+        "FRE": "Foreign Languages (FLE)",
+        "GER": "Foreign Languages (FLE)",
+        "JAP": "Foreign Languages (FLE)"
     };
     let lastDepartment = "";
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let deptCode = course.code.substring(1, 4); // Extract ECE / CSE
         let department = departmentMap[deptCode] || deptCode;
 
-        // Add Department Header if New
+        // Add Department Header if New 
         if (department !== lastDepartment) {
             let tr = document.createElement("tr");
             tr.innerHTML = `<td colspan="3" class="subheading">${department}</td>`;
